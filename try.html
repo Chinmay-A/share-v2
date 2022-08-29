@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="./try-css.css">
+    <link rel="stylesheet" href="./navbar-v2/nav-css.css">
+
+    <title>ShARE | Home</title>
+    <meta name="home-page">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Adding the lexend deca font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;400&display=swap" rel="stylesheet">
+
+    <!--
+    <script>
+        window.addEventListener('scroll', () => {
+    document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+    }, false);
+    </script>
+    --->
+
+    
+</head>
+<body>
+    <div class="ca-container" id="ca-cont-id">
+        <div class="ca-outer">
+            <div class="ca-details">
+                <div id="ca-nav-div">
+
+                    <img src="./navbar-v2/logo-main.png" id="ca-logo-main">
+                    <ul id="ca-nav-ul">
+                        <li class="ca-nav-li"><a class="ca-nav-link" href="/">Contact Us</a></li>
+                        <li class="ca-nav-li"><a class="ca-nav-link" href="/">Team</a></li>
+                        <li class="ca-nav-li"><a class="ca-nav-link" href="/">Projects</a></li>
+                        <li class="ca-nav-li"><a class="ca-nav-link" href="/">Activities</a></li>
+                        <li class="ca-nav-li"><a class="ca-nav-link" href="/">Home</a></li>
+                    </ul>
+                     
+                </div>
+                <!--navbar over-->
+        
+                <br>
+                <br>
+        
+                <div id="ca-sec-main">
+                    <center><p id="ca-p-main">Welcome to <sec id="ca-change-color">ShARE</sec> IIT Kanpur</p>
+                    <br>
+                    <button id="ca-a-l" class="ca-l-l">&bull;</button>
+                    <button id="ca-b-l" class="ca-l-l">&bull;</button>
+                    <button id="ca-c-l" class="ca-l-l">&bull;</button>
+                    
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br>
+    
+
+    <center>
+        <!-- texta-->
+        <img src="./navbar-v2/text-img-a.png" id="ca-taimg">
+        <br>
+        <br>
+        <br>
+        <img src="./navbar-v2/text-img-b.png" id="ca-tbimg">
+        <br>
+        <br>
+        <br>
+        <img src="./imgc.png" id="ca-tcimg">
+        <!--texta over-->
+    </center>
+
+
+    <script>
+
+        //start
+
+        var button_a=document.getElementById("ca-a-l");
+        var button_b=document.getElementById("ca-b-l");
+        var button_c=document.getElementById("ca-c-l");
+
+        
+        button_a.onclick=function(){
+
+            document.getElementById("ca-cont-id").style.backgroundImage="url('./navbar-v2/imga.jpg')";
+
+        }
+        
+        
+        
+        button_b.onclick=function(){
+
+            document.getElementById("ca-cont-id").style.backgroundImage="url('./navbar-v2/imgb.png')";
+
+        }
+
+       button_c.onclick=function(){
+
+        document.getElementById("ca-cont-id").style.backgroundImage="url('./navbar-v2/imgc.jpg')";
+
+        }
+
+
+        //end
+    </script>
+
+</body>
+</html>
+
